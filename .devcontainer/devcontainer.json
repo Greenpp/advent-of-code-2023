@@ -1,0 +1,4 @@
+{
+	"name": "Advent of Code 2023",
+	"image": "mcr.microsoft.com/devcontainers/go:1.21-bullseye"
+}
