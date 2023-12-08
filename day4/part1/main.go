@@ -41,7 +41,7 @@ func processLine(line *string) int {
 	} else {
 		s1, s2 = foundValues, winningValues
 	}
-	for v, _ := range *s1 {
+	for v := range *s1 {
 		if (*s2)[v] {
 			shared[v] = true
 		}
